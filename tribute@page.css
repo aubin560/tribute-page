@@ -1,0 +1,104 @@
+
+
+
+
+    body{
+        font-family:  Arial, sans-serif;
+    }
+    main{
+        background: #eee;
+        
+    
+    }
+    #image{
+        width: 300px;
+        height: 430px;
+    }
+    .title{
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      line-height: 80%;
+      font-size: 50px;
+      padding-top: 10px;
+    }
+    .header{
+        text-align: center;
+        font-family: Playfair Display;
+        font-weight: bold;
+        
+    }
+    #img-div{
+        background: rgb(188, 191, 192);
+        text-align: center; 
+        padding: 10px;
+        margin: 0px 30px 0px 30px ;
+    }
+    caption{
+        text-align: justify;
+    }
+    .content{
+        padding-left: 15px;
+        padding-bottom: 18px;
+        text-align: left;
+        border-left: 1px solid black;
+    }
+    table{
+        margin: auto;
+        width: 80%;
+        padding: 20px;
+    }
+    .year{
+        padding-right: 15px;
+        font-family: 'Times New Roman';
+        font-style: italic;
+    }
+    .link{
+        
+        bottom: 2px;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        border: solid black 1px;
+        color: black;
+        padding: 5px;
+        border-radius: 5px;
+        background: rgb(188, 191, 192);
+        margin: 0 auto;
+    }
+    .link:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .short-info-lum{
+     text-align: justify;
+     border: solid 1px #eee;
+     margin: 0px 30px 0px 30px ;
+    }
+    .PL-achievement{
+        text-align: center;
+        font-family: Playfair Display;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    @media (max-width:660px){
+      
+        #image{
+            
+            max-width: 100%;
+            height: auto;
+        }
+        .title{
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            line-height: 80%;
+            font-size: 15px;
+            padding-top: 10px;
+          }
+    }
+    @media (min-width: 500px){
+      #image{
+        width: 400px;
+    }
+}
+    
